@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="rsc"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="lwjgl/lib/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jar/lwjgl_test.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/lwjgl/lib/jar/lwjgl_doc.jar!/doc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jar/lwjgl_util.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/lwjgl/lib/jar/lwjgl_doc.jar!/doc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jar/lwjgl.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/lwjgl/lib/jar/lwjgl_doc.jar!/doc/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="lwjgl/lib/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jar/slick-util.jar"/>
+	<classpathentry kind="lib" path="lib/jar/lwjgl-debug.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
